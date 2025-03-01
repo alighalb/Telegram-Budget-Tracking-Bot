@@ -2,9 +2,9 @@ import { Bot, session } from "grammy";
 import { createClient } from "@supabase/supabase-js";
 
 // Environment variables
-const BOT_TOKEN = process.env.7776335502:AAFHE0p0W8qfyrVByNSU5D6MFtNjpdBMJ7Q;
-const SUPABASE_URL = process.env.https://qmnhyaqrarwkwgnrxefl.supabase.co;
-const SUPABASE_KEY = process.env.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFtbmh5YXFyYXJ3a3dnbnJ4ZWZsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDA4NTgzNjQsImV4cCI6MjA1NjQzNDM2NH0.Em49137u7fMzHhhfALV9e9AoqmTEYXuCepWfN_dPwqw;
+const supabaseUrl = 'https://qmnhyaqrarwkwgnrxefl.supabase.co'
+const supabaseKey = process.env.SUPABASE_KEY
+const supabase = createClient(supabaseUrl, supabaseKey)
 
 // Initialize Supabase client
 const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
