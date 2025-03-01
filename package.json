@@ -1,0 +1,10 @@
+{
+  "name": "telegram-budget-bot",
+  "version": "1.0.0",
+  "description": "Telegram Budget Tracking Bot",
+  "main": "index.js",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.21.0",
+    "grammy": "^1.16.0"
+  }
+}
